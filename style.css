@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); 
+
+body{
+    font-family: 'Source Code Pro', monospace;
+    background:#FFF url(colorido.png) 0px 0px / 100% 1000px;
+    /*background-size: cover;*/
+    background-attachment: scroll;
+    
+    color:white;
+}
+
+nav,div{
+    display:flex;
+
+}
+
+header{
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+main{
+    width: 900px;
+    margin:auto;
+    margin-top: 10px;;
+    background-color: rgba(0, 162, 255, 0.685);
+    border-radius: 30px;
+    padding: 25px;
+    /*text-align: center;*/
+}
+
+nav{
+    justify-content: flex-end;
+}
+
+nav a{
+    width: 90px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+a:hover{
+    background-color: powderblue;
+    width:150px;
+    color:grey;
+    text-shadow:3px 3px 8px purple;
+    border-radius: 10px;
+
+
+}
+
+p{
+    font-size:17px;
+    text-align: justify;
+    columns:2;
+    column-gap:50px;
+    column-rule:5px outset pink;
+    
+}
+
+div{
+    width: 100%;
+    justify-content: center;
+}
+ol:hover{
+    background-color: red;
+}
+ol,ul,li{
+    text-align:center;
+    color:white;
+    padding:10px;
+    
+}
+
+ol{
+    display:table;
+    background:rgba(0, 0, 0, 0.555);
+    border-radius:20px;
+
+}
+
+ul{
+    display:table-row;
+}
+
+li{
+    display:table-cell;
+    border-right:1px dashed purple;
+}
+
+.ultima{
+    border-right:none;
+}
