@@ -1,2 +1,2 @@
-# CSS-1
+# CSS
 Só HTML e CSS
