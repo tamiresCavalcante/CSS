@@ -1,0 +1,95 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style type="text/css">
+body{
+	background-color: #ceecee;
+}
+.corpo{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 5px 5px 20px #000;
+}
+
+.item{
+	list-style: none;
+	padding-top: 5px;
+	width: 250px;
+}
+
+.azul{
+	height: 70px;
+	width: 70px;
+	background-color: #00f;
+	position: absolute;
+	transition: width 0.5s ease-out;
+}
+
+.cinza{
+	height: 70px;
+	width: 250px;
+	background-color: #aaa;
+}
+
+.item a{
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 18px;
+	text-shadow:1px 1px 2px #000;
+	z-index: 1;
+	margin: 20px 80px;
+}
+
+
+.item:hover{
+	cursor: pointer;
+}
+
+.item:hover .azul{
+	width: 250px;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="corpo">
+
+<ul class="menu">
+	<li class="item">
+		<a href="#">item 1</a>
+		<div class="azul"></div>
+		<div class="cinza"></div>
+	</li>
+	<li class="item">
+		<a href="#">item 2</a>
+		<div class="azul"></div>
+		<div class="cinza"></div>
+	</li>
+	<li class="item">
+		<a href="#">item 3</a>
+		<div class="azul"></div>
+		<div class="cinza"></div>
+	</li>
+	<li class="item">
+		<a href="#">item 4</a>
+		<div class="azul"></div>
+		<div class="cinza"></div>
+	</li>
+	<li class="item">
+		<a href="#">item 5</a>
+		<div class="azul"></div>
+		<div class="cinza"></div>
+	</li>
+</ul>
+
+</div>
+</body>
+</html>
