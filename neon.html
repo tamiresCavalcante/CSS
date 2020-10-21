@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyFrames</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: black;
+        }
+        section{
+            width: 600px;
+            margin:150px auto;
+            color: #3f3;
+            animation-duration: 8s;
+            animation-name: cor_fonte;
+            animation-iteration-count:infinite;
+        }
+        p{
+            font-size: 100px;
+            text-align: center;
+            font-family: "Courier New";
+            animation-duration: 2s;
+            animation-name: brilho;
+            animation-iteration-count: infinite;
+        }
+        @keyframes cor_fonte{
+            0,100%{color: #0ff}
+            25%{color: #f0f}
+            50%{color: #06f}
+            75%{color: #fff}
+        }
+        @keyframes brilho{
+            50%{text-shadow:0px 0px 15px}
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>Tamires Cavalcante</p>
+    </section>
+    
+</body>
+</html>
