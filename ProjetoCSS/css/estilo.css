@@ -18,6 +18,10 @@ a:hover{
     border-bottom: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 p{
     margin: 0 0 2em;
 }
@@ -105,7 +109,7 @@ input, label, textarea {
     box-sizing: border-box;
 }
 
-input, textarea{
+input, textarea, select{
     background: rgb(231, 230, 230);
     padding: 15px;
     border-radius: 5px;
@@ -116,6 +120,14 @@ input, textarea{
 input:focus, textarea:focus{
     border: 3px solid #49bf9d;
     outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+textarea {
+    height: 10em;
 }
 
 .button-default{
@@ -142,6 +154,10 @@ input:focus, textarea:focus{
 .button-default-full{
     display: block;
     text-align: center;
+}
+
+.imagem-link{
+    border:0;
 }
 
 .table {
@@ -220,6 +236,15 @@ input:focus, textarea:focus{
     padding: 70px 55px;
     box-sizing: border-box;
     
+}
+
+.main-header-link img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recent-works-card img {
+    border-radius: 10px;
 }
 
 .row{
